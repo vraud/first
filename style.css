@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.menu {
+    background-image: url("./img/backg1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1200px;
+    height: 688px;
+}
+
+.menu_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo {
+    padding-top: 38px;
+    padding-left: 84px;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    padding-right: 105px;
+    text-decoration: none;
+    margin: 0;
+    padding-top: 50px;
+}
+
+.nav li a{
+    padding-left: 30px;
+    text-decoration: none;
+    color: #ffffff;
+    
+}
