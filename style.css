@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Couture;
+    src: url(./fonts/couture-bld.otf);
+}
+
 * {
     box-sizing: border-box;
     font-family: sans-serif;
@@ -19,9 +24,8 @@
 
 .menu_inner {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    
 }
 
 .logo {
@@ -32,9 +36,8 @@
 .nav {
     display: flex;
     list-style: none;
-    margin-right: 105px;
     text-decoration: none;
-    padding-top: 50px;
+    margin-top: 66px;
 }
 
 .nav_style {
@@ -64,6 +67,7 @@ h1 {
     font-style: normal;
     text-transform: uppercase;
     margin: 0;
+    padding-top: 130px;
     padding-left: 103px;
     line-height: 80px;
 }
@@ -71,17 +75,17 @@ h1 span {
     display: block;
 }
 
-h1.title {
-    margin-top: 130px;
+.black {
     color: #130e27 !important;
 }
 
-span {
+.white {
     color: #ffffff;
 }
 
 .menu p {
-    margin: 50px 631px 156px 103px;
+    margin: 0; 
+    padding: 50px 590px 156px 103px;
     color: #f6d5d2;
 }
 
@@ -94,7 +98,19 @@ span {
 }
 
 h2 {
-    margin: 46px auto 189px 100px;
+    /* margin: 46px auto 189px 100px; */
+    margin: 0;
+    padding-top: 46px;
+    padding-left: 101px;
+    padding-bottom: 100px;
+    font-family: Couture;
+    font-weight: bold;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.red {
+    color: #c62314;
 }
 
 .services {
@@ -106,19 +122,65 @@ h2 {
     text-align: center;
 }
 
+.place {
+    margin: 0;
+    padding-top: 48px;
+}
+
+.place3 {
+    margin: 0;
+    padding-top: 30px;
+}
+
+.place4 {
+    margin: 0;
+    padding-top: 34px;
+}
+
+.icon{
+    transform: translateY(-19px);
+}
+
+
 .info {
     display: flex;
     height: 120px;
     background-color:#130e27;
     margin-top: 64px;
+    position: relative;
 }
 
-.info p {
+.info>p {
     color: #efeff1;
-    margin: auto 0 auto 103px ;
+    margin-left: 101px;
 }
 
 .moreinfo {
     color: #ffffff;
     background-color: crimson;
+}
+
+.link a {
+    width: 269px;
+    height: 64px;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    text-decoration: none;
+    line-height: 28px;
+    border: 2px solid #c62314;
+    background-color: #c62314;
+    border-radius: 5px;
+} 
+
+.style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 25px;
+    left: 850px;
 }
